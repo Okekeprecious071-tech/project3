@@ -181,7 +181,7 @@ footer{
         width: 80px;
     }
     img{
-        width: 100%;
+        max-width: 100%;
     }
     footer{
         flex-direction: column;
@@ -196,5 +196,8 @@ footer{
     .workflow-grid{
         flex-direction:column;
         align-items: center;
+    }
+    footer img{
+        width: 55px
     }
 }
